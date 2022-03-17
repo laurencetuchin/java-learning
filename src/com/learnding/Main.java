@@ -13,9 +13,12 @@ public class Main {
 //        Surfer gabrielMedina = new Surfer("Gabriel Medina", "goofy", false, "Brazil");
 //        gabrielMedina.printSurfer();
 
-
-        Pokemon charizard = new Charizard();
+        Pokemon charizard1 = new Pokemon("Orange", "Fire", true);
+        Pokemon charizard = new Charizard("Orange", "Fire", true);
         charizard.attack();
+//        System.out.println(charizard1.getColor());
+        charizard1.getColor();
+
     }
 
 }
