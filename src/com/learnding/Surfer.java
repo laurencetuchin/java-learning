@@ -8,8 +8,8 @@ public class Surfer {
     String country;
 
 
-    public Surfer(String name, String stance, Boolean isCurrentChampion, String country)
-    {
+    public Surfer(String name, String stance, Boolean isCurrentChampion, String country) {
+        super();
         this.name = name;
         this.stance = stance;
         this.isCurrentChampion = isCurrentChampion;
@@ -21,6 +21,8 @@ public class Surfer {
         System.out.println("Stance "+stance);
         System.out.println("Are they the current champion? "+isCurrentChampion);
         System.out.println("They are from "+country);
+        System.out.println();
     }
+
 
 }

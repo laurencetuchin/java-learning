@@ -7,5 +7,11 @@ public class Main {
 
         Surfer jjf = new Surfer("JJF","Natural", false, "USA");
         jjf.printSurfer();
+
+        Surfer italoFerreira = new Surfer("Italo Ferreira", "goofy", true, "Brazil");
+        italoFerreira.printSurfer();
+        Surfer gabrielMedina = new Surfer("Gabriel Medina", "goofy", false, "Brazil");
+        gabrielMedina.printSurfer();
     }
+
 }
