@@ -17,9 +17,6 @@ public class Pokemon {
 //        System.out.println(color);
     }
 
-    public static void main(String[] args) {
-
-    }
     public void attack() {
         System.out.println("The pokemon attacked");
     }
