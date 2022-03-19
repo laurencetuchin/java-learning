@@ -3,10 +3,12 @@ package com.learnding;
 import java.util.Random;
 
 public class Charizard extends Pokemon {
+    private String color;
+    private String type;
+    private Boolean canFly;
 
-
-    public Charizard() {
-        attack();
+    public Charizard(String color, String type, Boolean canFly) {
+        super(color, type, canFly);
     }
 
     @Override
