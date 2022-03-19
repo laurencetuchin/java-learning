@@ -18,6 +18,7 @@ public class Main {
         charizard.attack();
 //        System.out.println(charizard1.getColor());
         charizard1.getColor();
+        charizard1.pokeInfo();
 
     }
 

@@ -4,6 +4,9 @@ public class Pokemon {
     String color;
     String type;
     Boolean canFly;
+//    String[] pokemon;
+    String[] pokemon = {"color","type"};
+//    pokemon[0] = "test";
 
     public Pokemon(String color, String type, Boolean canFly) {
         this.color = color;
@@ -15,6 +18,10 @@ public class Pokemon {
         System.out.println(color);
         return color;
 //        System.out.println(color);
+    }
+
+    public void pokeInfo() {
+        System.out.println("The pokemon is "+color+"\nThey are a "+type+"type."+"\nThey are able to fly?"+canFly);
     }
 
     public void attack() {
