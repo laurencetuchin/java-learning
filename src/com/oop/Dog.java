@@ -1,7 +1,9 @@
 package com.oop;
 
-public class DogArray {
+public class Dog {
+
 //    Dog[] pets;
 //    pets = new Dog[7];
-//    pets[0] = new Dog();
+
+
 }

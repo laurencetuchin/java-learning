@@ -1,11 +1,11 @@
 package com.learnding;
 
 public class Pokemon {
-    String color;
-    String type;
-    Boolean canFly;
+    private String color;
+    private String type;
+    private Boolean canFly;
 //    String[] pokemon;
-    String[] pokemon = {"color","type"};
+private String[] pokemon = {"color","type"};
 //    pokemon[0] = "test";
 
     public Pokemon(String color, String type, Boolean canFly) {
@@ -36,5 +36,23 @@ public class Pokemon {
         System.out.println("The pokemon did a special move");
     }
 
+    public void setColor(String color) {
+        this.color = color;
+    }
 
+    public String getType() {
+        return type;
+    }
+
+    public void setType(String type) {
+        this.type = type;
+    }
+
+    public Boolean getCanFly() {
+        return canFly;
+    }
+
+    public void setCanFly(Boolean canFly) {
+        this.canFly = canFly;
+    }
 }
