@@ -20,7 +20,7 @@ public class Main {
         charizard1.getColor();
         charizard1.pokeInfo();
 
-        Pokemon[] pokemon = new Pokemon[7];
+        Pokemon[] pokemon = new Pokemon[4];
 
         pokemon[0] = new Pokemon("red","fire", true);
         pokemon[1] = new Pokemon("red","fire", true);
@@ -30,6 +30,12 @@ public class Main {
         pokemon[3] = new Squirtle("blue","water",false);
 //        System.out.println(x);
 
+
+//        Looping through polymorphic classes
+        for (int i = 0; i < pokemon.length; i++) {
+            pokemon[i].attack();
+            pokemon[i].defend();
+        }
 
     }
 
