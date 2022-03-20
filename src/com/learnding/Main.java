@@ -20,13 +20,14 @@ public class Main {
         charizard1.getColor();
         charizard1.pokeInfo();
 
-        Pokemon[] pokemon;
-        pokemon = new Pokemon[7];
+        Pokemon[] pokemon = new Pokemon[7];
 
         pokemon[0] = new Pokemon("red","fire", true);
         pokemon[1] = new Pokemon("red","fire", true);
         pokemon[0].setColor("Blue");
         String x = pokemon[0].getColor();
+        pokemon[2] = new Charizard("red","fire",true);
+        pokemon[3] = new Squirtle("blue","water",false);
 //        System.out.println(x);
 
 
