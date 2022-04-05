@@ -20,15 +20,22 @@ public class Main {
         charizard1.getColor();
         charizard1.pokeInfo();
 
-        Pokemon[] pokemon;
-        pokemon = new Pokemon[7];
+        Pokemon[] pokemon = new Pokemon[4];
 
         pokemon[0] = new Pokemon("red","fire", true);
         pokemon[1] = new Pokemon("red","fire", true);
         pokemon[0].setColor("Blue");
         String x = pokemon[0].getColor();
+        pokemon[2] = new Charizard("red","fire",true);
+        pokemon[3] = new Squirtle("blue","water",false);
 //        System.out.println(x);
 
+
+//        Looping through polymorphic classes
+        for (int i = 0; i < pokemon.length; i++) {
+            pokemon[i].attack();
+            pokemon[i].defend();
+        }
 
     }
 
